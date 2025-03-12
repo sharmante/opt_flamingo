@@ -374,6 +374,16 @@ def evaluate_captioning(
         k: v for d in all_predictions for k, v in d.items()
     }  # merge dicts
 
+    # 캡션 저장 경로 설정 (shot별로 다르게)
+    caption_save_path = f"org_model_generated_captions_shot{num_shots}.json"
+
+    # 평가가 끝난 후 shot 별로 JSON 파일 저장
+    if args.rank == 0:
+        with open(caption_save_path, "w") as f:
+            json.dump(all_predictions, f, indent=4)
+
+        print(f"✅ 캡션 결과 저장 완료: {caption_save_path}")
+
     # save the predictions to a temporary file
     results_path = f"{dataset_name}results_{uuid.uuid4()}.json"
 
