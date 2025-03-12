@@ -1,2 +1,1 @@
-mscoco_karpathy/train2014/*.jpg filter=lfs diff=lfs merge=lfs -text
-mscoco_karpathy/val2014/*.jpg filter=lfs diff=lfs merge=lfs -text
+

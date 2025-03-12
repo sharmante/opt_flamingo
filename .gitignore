@@ -145,3 +145,5 @@ cache/
 
 __*.shmscoco_karpathy/train2014/
 mscoco_karpathy/val2014/
+mscoco_karpathy/train2014/
+mscoco_karpathy/val2014/
