@@ -1,0 +1,24 @@
+Orign model 0 shot captioning working
+Inference Time: 1218.58 sec
+Memory Used: 525.23 MB
+========================================
+Orign model 4 shot captioning working
+Inference Time: 2146.66 sec
+Memory Used: 1537.76 MB
+========================================
+Orign model 8 shot captioning working
+Inference Time: 4224.33 sec
+Memory Used: 2769.42 MB
+========================================
+Optimization model 0 shot captioning working
+Inference Time: 334.78 sec
+Memory Used: 289.76 MB
+========================================
+Optimization model 4 shot captioning working
+Inference Time: 641.52 sec
+Memory Used: 814.70 MB
+========================================
+Optimization model 8 shot captioning working
+Inference Time: 1364.61 sec
+Memory Used: 1468.47 MB
+========================================
